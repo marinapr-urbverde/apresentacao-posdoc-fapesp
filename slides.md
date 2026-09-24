@@ -40,7 +40,7 @@ semRodape: true
 
 # Prefeitura de São Paulo publica 3ª edição do Plano Diretor de Drenagem
 
-<p class="c-marrom" style="font-size:16px; margin:-8px 0 26px; max-width:760px;">201 intervenções que visam a redução de alagamentos. Plano elaborado pela SIURB em parceria com a USP incorpora soluções baseadas na natureza.</p>
+<p class="c-marrom" style="font-size:16px; margin:-8px 0 26px; max-width:760px; opacity:1;">201 intervenções que visam a redução de alagamentos. Plano elaborado pela SIURB em parceria com a USP incorpora soluções baseadas na natureza.</p>
 
 <div class="grid grid-cols-3 gap-5">
   <div class="card bg-petroleo" style="padding:22px 24px;">
@@ -189,7 +189,7 @@ semRodape: true
 
 # O modelo conceitual
 
-<p class="c-marrom" style="font-size:13px; margin-top:-12px;">Avaliação Multicritério de Decisão: combinar relevo, drenagem, renda, saneamento e vegetação em um único mapa de prioridade.</p>
+<p class="c-marrom" style="font-size:13px; margin-top:-12px; opacity:1;">Avaliação Multicritério de Decisão: combinar relevo, drenagem, renda, saneamento e vegetação em um único mapa de prioridade.</p>
 
 <div class="grid gap-6" style="grid-template-columns: 6.5fr 4.93fr;">
   <div>
