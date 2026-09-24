@@ -1,0 +1,82 @@
+/* Paleta extraída do .pptx original */
+:root {
+  --verde-escuro: #2F5E33;
+  --verde: #46803C;
+  --marrom: #8A6E4E;
+  --azul-petroleo: #3E7F86;
+  --texto: #5A5044;
+  --texto-suave: #8A8477;
+  --tinta-verde: #F4F8F0;
+  --tinta-verde-2: #EAF3E2;
+  --tinta-petroleo: #E4EFEF;
+  --tinta-areia: #F7F3EA;
+}
+
+.slidev-layout {
+  background: #fff;
+  color: var(--texto);
+  font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+  font-size: 14.5px;
+  line-height: 1.4;
+  padding: 32px 55px 40px;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.serif {
+  font-family: Cambria, Caladea, Georgia, serif;
+  color: var(--verde-escuro);
+  font-weight: 700;
+}
+
+/* Sobretítulo em caixa alta + título do slide */
+.slidev-layout .kicker {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--marrom);
+  text-transform: uppercase;
+  margin: 0;
+}
+.slidev-layout h1 {
+  font-size: 30px;
+  line-height: 1.15;
+  margin: 4px 0 20px;
+}
+.slidev-layout p { margin: 0 0 .6em; }
+
+.card { border-radius: 12px; padding: 16px 22px; }
+.bg-verde { background: var(--tinta-verde); }
+.bg-verde-2 { background: var(--tinta-verde-2); }
+.bg-petroleo { background: var(--tinta-petroleo); }
+.bg-areia { background: var(--tinta-areia); }
+
+.c-verde { color: var(--verde); }
+.c-verde-escuro { color: var(--verde-escuro); }
+.c-marrom { color: var(--marrom); }
+.c-petroleo { color: var(--azul-petroleo); }
+.c-suave { color: var(--texto-suave); }
+
+.num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  color: #fff; font-weight: 700; font-size: 13px; flex: none;
+}
+.num.verde { background: var(--verde); }
+.num.marrom { background: var(--marrom); }
+.num.petroleo { background: var(--azul-petroleo); }
+
+.rotulo { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.legenda { font-size: 9px; color: var(--texto-suave); margin-top: 6px; }
+
+.lista { list-style: none; padding: 0; margin: 0; }
+.lista li { margin: 0 0 6px; padding-left: 14px; position: relative; }
+.lista li::before { content: "•"; position: absolute; left: 0; color: var(--verde); }
+
+.rodape {
+  position: absolute; left: 55px; right: 55px; bottom: 14px;
+  display: flex; justify-content: space-between;
+  font-size: 9px; color: var(--texto-suave);
+  font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+}
