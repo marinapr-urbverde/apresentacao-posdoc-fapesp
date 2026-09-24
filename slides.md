@@ -36,6 +36,35 @@ semRodape: true
 
 ---
 
+<p class="kicker">Em pauta · 10 de setembro de 2026</p>
+
+# Prefeitura de São Paulo publica 3ª edição do Plano Diretor de Drenagem
+
+<p class="c-marrom" style="font-size:16px; margin:-8px 0 26px; max-width:760px;">201 intervenções que visam a redução de alagamentos. Plano elaborado pela SIURB em parceria com a USP incorpora soluções baseadas na natureza.</p>
+
+<div class="grid grid-cols-3 gap-5">
+  <div class="card bg-petroleo" style="padding:22px 24px;">
+    <div class="serif c-petroleo" style="font-size:44px; line-height:1;">201</div>
+    <div class="c-suave mt-2" style="font-size:12px;">intervenções para reduzir alagamentos na cidade de São Paulo</div>
+  </div>
+  <div class="card bg-areia" style="padding:22px 24px;">
+    <div class="serif c-marrom" style="font-size:44px; line-height:1;">R$ 16,5 bi</div>
+    <div class="c-suave mt-2" style="font-size:12px;">em investimentos previstos</div>
+  </div>
+  <div class="card bg-verde" style="padding:22px 24px;">
+    <div class="serif c-verde" style="font-size:44px; line-height:1;">SbN</div>
+    <div class="c-suave mt-2" style="font-size:12px;">soluções baseadas na natureza incorporadas ao plano</div>
+  </div>
+</div>
+
+<div class="card bg-verde-2 c-verde-escuro mt-5" style="font-size:14px;">
+  <b>3ª edição do plano</b>, elaborada pela Secretaria Municipal de Infraestrutura Urbana e Obras (SIURB) em parceria com a USP.
+</div>
+
+<p class="legenda" style="margin-top:14px;">Fonte: Prefeitura de São Paulo, notícia de 10 set. 2026.</p>
+
+---
+
 <p class="kicker">Contexto</p>
 
 # O problema
