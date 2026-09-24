@@ -70,9 +70,9 @@
 .rotulo { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .legenda { font-size: 9px; color: var(--texto-suave); margin-top: 6px; }
 
-.lista { list-style: none; padding: 0; margin: 0; }
-.lista li { margin: 0 0 6px; padding-left: 14px; position: relative; }
-.lista li::before { content: "•"; position: absolute; left: 0; color: var(--verde); }
+.slidev-layout .lista { list-style: none; padding: 0; margin: 0; }
+.slidev-layout .lista li { list-style: none; margin: 0 0 6px; padding-left: 14px; position: relative; }
+.slidev-layout .lista li::before { content: "•"; position: absolute; left: 0; color: var(--verde); }
 
 .rodape {
   position: absolute; left: 55px; right: 55px; bottom: 14px;

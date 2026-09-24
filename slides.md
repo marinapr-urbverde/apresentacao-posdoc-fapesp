@@ -8,6 +8,7 @@ aspectRatio: 16/9
 canvasWidth: 980
 colorSchema: light
 routerMode: hash
+preloadImages: false
 transition: fade
 fonts:
   provider: none
@@ -28,12 +29,10 @@ semRodape: true
   Instituto de Arquitetura e Urbanismo de São Carlos — USP
 </div>
 
-<div class="absolute flex items-center" style="left:349px; top:445px; gap:22px;">
-  <img src="./img/s01_Imagem_12.jpg" style="height:70px;" />
-  <img src="./img/s01_Imagem_10.png" style="height:45px;" />
-  <img src="./img/s01_Imagem_7.jpg" style="height:66px;" />
-  <img src="./img/s01_Imagem_11.jpg" style="height:94px;" />
-</div>
+<img src="./img/s01_Imagem_12.jpg" class="absolute" style="left:349px; top:458px; width:218px; height:70px; object-fit:contain;" />
+<img src="./img/s01_Imagem_10.png" class="absolute" style="left:580px; top:470px; width:140px; height:45px; object-fit:contain;" />
+<img src="./img/s01_Imagem_7.jpg" class="absolute" style="left:725px; top:458px; width:151px; height:66px; object-fit:contain;" />
+<img src="./img/s01_Imagem_11.jpg" class="absolute" style="left:880px; top:445px; width:94px; height:94px; object-fit:contain;" />
 
 ---
 
@@ -146,8 +145,8 @@ semRodape: true
     <img src="./img/s06_Picture_3.jpg" style="width:100%;" />
     <div class="legenda">Figura 1. Localização do Estado de São Paulo, seus 645 municípios e as 22 sub-bacias. Fonte: Ribeiro (2025).</div>
   </div>
-  <div class="card bg-verde serif" style="font-size:13.5px; font-weight:400; padding:20px 24px;">
-    <p style="font-size:15px;"><b>Recorte e unidade de análise</b></p>
+  <div class="card bg-verde serif" style="font-size:12px; line-height:1.3; font-weight:400; padding:16px 22px;">
+    <p style="font-size:14px;"><b>Recorte e unidade de análise</b></p>
     <p><b>Estado de São Paulo</b><br/>645 municípios, 248.219 km² e mais de 44 milhões de habitantes (Censo 2022).</p>
     <p><b>22 Unidades de Gerenciamento de Recursos Hídricos</b><br/>Cada uma com seu Comitê de Bacia Hidrográfica — interlocutores da etapa participativa.</p>
     <p><b>Universo analítico</b><br/>Apenas os setores censitários urbanos do IBGE. Toda a análise é intraurbana, o que assegura alta resolução espacial e comparabilidade entre municípios.</p>
@@ -298,7 +297,7 @@ semRodape: true
 <iframe
   src="https://urbverde.iau.usp.br/mapa?code=3548906&viewMode=map&type=city&year=2026&category=hidro&layer=flood_susceptibility_state&scale=intraurbana"
   class="absolute"
-  style="left:0; top:104px; width:980px; height:448px; border:0;"
+  style="left:0; top:104px; width:1400px; height:640px; border:0; transform:scale(0.7); transform-origin:0 0;"
   loading="lazy"
   allow="fullscreen; geolocation"
 ></iframe>
@@ -374,9 +373,7 @@ semRodape: true
   </div>
 </div>
 
-<div class="absolute flex items-center" style="left:349px; top:445px; gap:22px;">
-  <img src="./img/s01_Imagem_12.jpg" style="height:70px;" />
-  <img src="./img/s01_Imagem_10.png" style="height:45px;" />
-  <img src="./img/s01_Imagem_7.jpg" style="height:66px;" />
-  <img src="./img/s01_Imagem_11.jpg" style="height:94px;" />
-</div>
+<img src="./img/s01_Imagem_12.jpg" class="absolute" style="left:349px; top:458px; width:218px; height:70px; object-fit:contain;" />
+<img src="./img/s01_Imagem_10.png" class="absolute" style="left:580px; top:470px; width:140px; height:45px; object-fit:contain;" />
+<img src="./img/s01_Imagem_7.jpg" class="absolute" style="left:725px; top:458px; width:151px; height:66px; object-fit:contain;" />
+<img src="./img/s01_Imagem_11.jpg" class="absolute" style="left:880px; top:445px; width:94px; height:94px; object-fit:contain;" />
