@@ -298,7 +298,6 @@ semRodape: true
   src="https://urbverde.iau.usp.br/mapa?code=3548906&viewMode=map&type=city&year=2026&category=hidro&layer=flood_susceptibility_state&scale=intraurbana"
   class="absolute"
   style="left:0; top:104px; width:1400px; height:640px; border:0; transform:scale(0.7); transform-origin:0 0;"
-  loading="lazy"
   allow="fullscreen; geolocation"
 ></iframe>
 
