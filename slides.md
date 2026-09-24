@@ -74,7 +74,7 @@ semRodape: true
   <p>As cidades concentram população, atividades econômicas e infraestrutura e estão, ao mesmo tempo, entre os territórios mais vulneráveis às mudanças climáticas — em especial às inundações urbanas.</p>
   <p>No Estado de São Paulo, a recorrência de chuvas extremas tem exposto limitações estruturais do planejamento urbano e a fragilidade da capacidade de resposta.</p>
   <p>A infraestrutura verde — parques, várzeas, jardins de chuva, arborização — responde a esse quadro por ser multifuncional. Mas costuma ser planejada por um único benefício e distribuída de forma desigual entre grupos sociais.</p>
-  <p class="c-verde-escuro"><b>Falta um instrumento que priorize território integrando, de uma só vez, suscetibilidade física, vulnerabilidade social e serviços ecossistêmicos.</b></p>
+  <p v-click class="c-verde-escuro"><b>Falta um instrumento que priorize território integrando, de uma só vez, suscetibilidade física, vulnerabilidade social e serviços ecossistêmicos.</b></p>
 </div>
 <div class="flex flex-col gap-3">
   <div class="card bg-verde">
